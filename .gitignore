@@ -1,0 +1,34 @@
+# Node modules (for JavaScript/TypeScript CDK projects)
+node_modules/
+
+# Python virtual environment (for Python CDK projects)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build artifacts
+cdk.out/
+dist/
+build/
+
+# Dependency lock files (optional, depending on your versioning preferences)
+package-lock.json
+pipfile.lock
+poetry.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# AWS credentials and config (ensure credentials are excluded)
+.aws-sam/
+*.env
