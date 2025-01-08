@@ -16,7 +16,7 @@ cdk deploy --app "python3 ssm_app.py"
 
 ## To create the eks stack ran the given command:
 
-x
+cdk deploy --app "python3 helm_app.py" --context environment=staging --context account=585008046798 --context region=eu-north-1 --no-rollback
 
 ## to Use the EKS cluster role to fetch the pod details:
 aws sts assume-role --role-arn arn:aws:iam::585008046798:role/PyBucket-MyEksClusterCreationRoleA5BECEC3-TYeZ9LV4F5sG --role-session-name test2
