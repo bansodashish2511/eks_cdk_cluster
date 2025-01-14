@@ -11,13 +11,12 @@ We cannot provide AWS accounts. You will need to use your own AWS account.
 
 ## To Create the Eks cluster and ssm parameters:
 source .venv/bin/activate
-
 cdk deploy --app "python3 ssm_app.py"
 
 
 ## To create the eks stack for helm ran the given command:
 
-cdk deploy --app "python3 helm_app.py" --context environment=staging --context account=585008046798 --context region=eu-north-1 --no-rollback
+x
 
 ## to Use the EKS cluster role to fetch the pod details:
 aws sts assume-role --role-arn arn:aws:iam::585008046798:role/PyBucket-MyEksClusterCreationRoleA5BECEC3-TYeZ9LV4F5sG --role-session-name test2
