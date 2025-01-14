@@ -9,6 +9,9 @@ There are no hidden objectives or obstacles. Feel free to create other resources
 
 We cannot provide AWS accounts. You will need to use your own AWS account.
 
+## Ran the given command for Bootstrapping:
+cdk bootstrap aws://585008046798/eu-north-1
+
 ## To Create the Eks cluster and ssm parameters:
 source .venv/bin/activate
 
