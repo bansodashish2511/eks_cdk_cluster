@@ -26,7 +26,7 @@ cdk deploy --app "python3 helm_app.py" --context environment=development --conte
 cdk deploy --app "python3 helm_app.py" --context environment=production --context account=585008046798 --context region=eu-north-1 --no-rollback
 
 
-## to Use the EKS cluster role to fetch the pod details:
+## To Use the EKS cluster role to fetch the pod details:
 aws sts assume-role --role-arn arn:aws:iam::585008046798:role/PyBucket-MyEksClusterCreationRoleA5BECEC3-TYeZ9LV4F5sG --role-session-name test2
 
 
